@@ -71,13 +71,13 @@ String datas;
 RTC_DATA_ATTR int bootCount = 0; // Enregistrement des données sur le mémoire RTC
 
 // Paramètres ThingSpeak
-const char* ssid1 = "HUAWEI-D760";   // your network SSID (name)
-const char* password1 = "LFHEFH613JL";   // your network password
-const char* ssid2 = "AP lane";   // your network SSID (name)
-const char* password2 = "lanemariane1";   // your network password
+const char* ssid1 = "XXXX";   // your network SSID (name)
+const char* password1 = "XXXX";   // your network password
+const char* ssid2 = "XXXX";   // your network SSID (name)
+const char* password2 = "XXXX";   // your network password
 WiFiClient  client;
 unsigned long myChannelNumber = 1;
-const char * myWriteAPIKey = "RJ5WJURU66IX6JMH";
+const char * myWriteAPIKey = "RJ5W";
 
 
 // Fonctions et Procédure utiles
