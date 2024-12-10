@@ -155,7 +155,7 @@ void setup() {
   print_wakeup_reason();
   /*
     Configuration la source de réveil, Réveil par Minuterie.
-    Nous configurons notre ESP32 pour qu'il se réveille toutes les 30 Min.
+    Nous configurons notre ESP32 pour qu'il se réveille toutes les 5 Min.
   */
   esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
   Serial.println("[ESP32 en veille à chaque " + String(TIME_TO_SLEEP) + " Secondes]");
@@ -228,8 +228,7 @@ void setup() {
   delay(2000);
 
   Serial.println("[Données Météorologique sur Site] :");
-  // La lecture de la température ou de l'humidité prend environ 250 millisecondes !
-  // Les relevés du capteur peuvent également être "vieux" de 2 secondes (c'est un capteur très lent).
+  
   float HR = dht.readHumidity();
   float TA = dht.readTemperature();
   // On Vérifie si une lecture a échoué et on affiche un message.
