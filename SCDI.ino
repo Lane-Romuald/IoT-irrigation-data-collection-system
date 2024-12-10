@@ -67,7 +67,7 @@ String datas;
 
 //Parmètres du Deep Sleep
 #define uS_TO_S_FACTOR 1000000ULL  /* Facteur de conversion des microsecondes en secondes */
-#define TIME_TO_SLEEP  300     /* Temps de mise en veille de l'ESP32 (en secondes) */
+#define TIME_TO_SLEEP  300     /* Temps de mise en veille de l'ESP32 (en secondes), Soit 5 min */
 RTC_DATA_ATTR int bootCount = 0; // Enregistrement des données sur le mémoire RTC
 
 // Paramètres ThingSpeak
