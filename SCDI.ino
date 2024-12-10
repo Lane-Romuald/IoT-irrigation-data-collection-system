@@ -77,7 +77,7 @@ const char* ssid2 = "XXXX";   // your network SSID (name)
 const char* password2 = "XXXX";   // your network password
 WiFiClient  client;
 unsigned long myChannelNumber = 1;
-const char * myWriteAPIKey = "RJ5W";
+const char * myWriteAPIKey = "XXXX";
 
 
 // Fonctions et Procédure utiles
