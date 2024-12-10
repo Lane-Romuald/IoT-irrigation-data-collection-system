@@ -26,11 +26,6 @@
 //Broche pour DS18B20
 #define ONE_WIRE_BUS 15
 
-//Adresse pour chaque capteur DS18B20
-//Capteur 1: 28 C5 51 FF 62 20 1 AC
-//Capteur 2:28 17 56 57 4 E1 3C A5
-//Capteur 3:28 24 BC 57 4 E1 3C 76
-
 //Broche pour HW-390
 #define HSpin1 A0
 #define HSpin2 A3
