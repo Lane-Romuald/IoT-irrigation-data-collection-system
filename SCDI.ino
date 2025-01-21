@@ -62,7 +62,7 @@ String datas;
 
 // Deep Sleep Parameters
 #define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for microseconds to seconds */
-#define TIME_TO_SLEEP  3600         /* ESP32 sleep time (in seconds), equivalent to 60 minutes */
+#define TIME_TO_SLEEP  300         /* ESP32 sleep time (in seconds), equivalent to 5 minutes */
 RTC_DATA_ATTR int bootCount = 0;   // Data saved in RTC memory
 
 // ThingSpeak Parameters
